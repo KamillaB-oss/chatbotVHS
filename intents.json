@@ -1,0 +1,22 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+    "responses": ["Hello", "Hey!", "What can I do for you?"],
+    "context_set": ""
+    },
+    {"tag": "goodbye",
+    "patterns": ["cyo", "see you later", "Goodbye", "I am leaving", "Have a good day"],
+    "responses": ["Sad to see you go :(", "Goodbye!", "Talk to you later"],
+    "context_set": ""
+    },
+    {"tag": "age",
+    "patterns": ["How old", "How old are you?", "What is your age?", "Age?", "How old is Tim?"],
+    "responses": ["I am 25 years old!", "i am 25 years young!"],
+    "context_set": ""
+    },
+    {"tag": "gut",
+    "patterns": ["Wie geht es dir?", "Fühlst du dich gut?", "Wie fühlst du dich?", "Wie geht's?", "Geht es dir gut?"],
+    "responses": ["Mir geht es blendend", "Ich fühle mich super:)"],
+    "context_set": ""
+    }
+]}
